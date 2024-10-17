@@ -1,11 +1,11 @@
-export class Todo {
-  id: number;
-  title: string;
-  description: string;
-  createdAt: Date;
-  updatedAt: Date;
-  doneAt: Date | null;
-}
+// export class Todo {
+//   id: number;
+//   title: string;
+//   description: string;
+//   createdAt: Date;
+//   updatedAt: Date;
+//   doneAt: Date | null;
+// }
 
 export class CreateTodoDTO {
   title: string;
